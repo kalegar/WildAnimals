@@ -1,0 +1,16 @@
+name: WildAnimals
+version: '${project.version}'
+main: me.sanjy33.wildanimals.WildAnimals
+api-version: 1.21.5
+authors: [ sanjy33 ]
+description: Simple Minecraft Java plugin to make baby tameable animals like wolves not already tamed when born.
+website: timelesscraft.ca
+commands:
+  wildanimals:
+    description: Reloads WildAnimals config.
+    usage: /wildanimals
+    permission: wildanimals.reload
+permissions:
+  wildanimals.reload:
+    description: Allows reloading WildAnimals config.
+    default: op
