@@ -17,3 +17,7 @@ After startup, a config.yml file will be created in the plugins/WildAnimals/ fol
 Here you can set which mob types will be 'unowned' when born. The default is wolves and cats.
 
 On startup of the server, any invalid or non-tameable mob types in the config will show an error message and be skipped.
+
+## Commands & Permissions
+
+`/wildanimals` reloads the config file. You need the `wildanimals.reload` permission or need to be an operator to use the command.
